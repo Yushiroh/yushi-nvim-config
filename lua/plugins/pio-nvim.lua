@@ -12,5 +12,8 @@ return {
 			-- If you pick clangd, it also creates compile_commands.json
 		})
 
+		vim.keymap.set({ "n", "v" }, "<leader>pu", ":Piorun", {})
+		vim.keymap.set({ "n", "v" }, "<leader>pi", ":Pioinit", {})
+		vim.keymap.set({ "n", "v" }, "<leader>pm", ":Piomon", {})
 	end,
 }
