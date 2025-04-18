@@ -21,3 +21,4 @@ vim.opt.rtp:prepend(lazypath)
 require("vim-settings")
 require("lazy").setup("plugins")
 require("catppuccin").setup()
+
